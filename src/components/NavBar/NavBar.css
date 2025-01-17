@@ -1,0 +1,40 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  z-index: 10;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.li.active {
+  background-color: var(--first-color);
+}
+
+.navbar__item {
+  text-align: center;
+}
+
+.navbar__link {
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  transition: color 0.3s ease;
+  background-color: var(--body-color);
+}
+
+.navbar__link:hover {
+  color: var(--first-color);
+}

@@ -1,0 +1,11 @@
+.background__container {
+  background-image: url(../../assets/closet.PNG);
+  background-size: cover;
+  background-position: center center;
+  filter: blur(8px);
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  transform: scale(1.5);
+  position: fixed;
+}
